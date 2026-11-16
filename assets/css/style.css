@@ -12,3 +12,9 @@
 .gallery-categories .tile-media{aspect-ratio:1}.gallery-categories .tile-copy{padding:18px 22px}.gallery-categories .tile-copy h3{margin:0}.gallery-categories .tile-meta{display:none}
 .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.75;z-index:0}.hero-media:has(.hero-video) .placeholder-lines{pointer-events:none}
 @media(max-width:900px){.content-tile-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.content-tile-grid{grid-template-columns:1fr}}
+.hero-media::before,
+.hero-media::after,
+.hero-media .placeholder-lines,
+.hero-media .hero-media-label {
+    display: none !important;
+}
