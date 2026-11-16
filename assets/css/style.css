@@ -45,18 +45,19 @@
     }
 
 
+
 /* About Me photographs */
-.about-photo {
+.section-layout .about-photo {
     width: 100%;
-    max-width: 480px;
-    aspect-ratio: 4 / 3;
+    max-width: 240px;
+    height: 180px;
     overflow: hidden;
     border-radius: 12px;
     background: #101a2b;
     justify-self: end;
 }
 
-.about-photo img {
+.section-layout .about-photo img {
     display: block;
     width: 100%;
     height: 100%;
@@ -65,10 +66,7 @@
 }
 
 @media (max-width: 768px) {
-    .about-photo {
-        max-width: 100%;
+    .section-layout .about-photo {
         justify-self: center;
     }
-}
-  
 }
