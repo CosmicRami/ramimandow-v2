@@ -18,3 +18,29 @@
 .hero-media .hero-media-label {
     display: none !important;
 }
+
+/* Homepage research keywords */
+.hero-keywords {
+    margin: 0 0 24px;
+    max-width: 650px;
+    color: #79bcff;
+    font: 700 0.75rem 'Space Grotesk', sans-serif;
+    letter-spacing: 0.12em;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+/* NASA animation credit */
+.hero-side-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    color: #a9c7e7;
+}
+
+@media (max-width: 600px) {
+    .hero-side-label {
+        display: block;
+        right: 8px;
+        font-size: 0.5rem;
+    }
+}
