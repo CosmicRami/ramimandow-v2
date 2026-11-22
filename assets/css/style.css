@@ -92,6 +92,7 @@
 
 /* Homepage research heading */
 .research-heading {
-    font-size: clamp(2rem, 3.5vw, 3.5rem);
+    font-size: 20px !important;
     line-height: 1.15;
+}
 }
