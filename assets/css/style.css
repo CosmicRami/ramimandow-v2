@@ -89,3 +89,9 @@
     max-width: 100% !important;
     object-fit: cover !important;
 }
+
+/* Homepage research heading */
+.intro-section h2 {
+    font-size: clamp(2.5rem, 4.5vw, 4.5rem);
+    line-height: 1.15;
+}
