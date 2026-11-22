@@ -128,6 +128,9 @@
     margin-bottom: 15px;
     font-size: 1.1rem;
     font-weight: 600;
+}
+
+/* Publication summary statistics */
 
 /* Publication summary statistics */
 
@@ -176,4 +179,3 @@
         padding: 20px 15px;
     }
 }    
-}
