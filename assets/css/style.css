@@ -97,3 +97,35 @@
     line-height: 1.1 !important;
 }
 
+/* Publications section */
+
+.publication-list {
+    margin: 15px 0 45px;
+    padding-left: 25px;
+    color: var(--muted);
+}
+
+.publication-list li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.publication-list a {
+    color: #79bcff !important;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    transition: color 0.2s ease;
+}
+
+.publication-list a:hover {
+    color: #d3eaff !important;
+    text-decoration-thickness: 2px;
+}
+
+.publications-subheading {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
