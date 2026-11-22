@@ -73,20 +73,20 @@
 }
 
 
-/* Force About Me photograph dimensions */
+/* About Me photograph dimensions */
 .section-layout .about-photo {
-    width: 240px !important;
-    max-width: 240px !important;
-    height: 180px !important;
-    max-height: 180px !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    height: auto !important;
+    max-height: none !important;
     aspect-ratio: 4 / 3;
     overflow: hidden !important;
 }
 
 .section-layout .about-photo img {
     display: block;
-    width: 240px !important;
-    height: 180px !important;
+    width: 100% !important;
+    height: 100% !important;
     max-width: 100% !important;
     object-fit: cover !important;
 }
