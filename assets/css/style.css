@@ -225,7 +225,8 @@
     font-size: 0.95rem;
     line-height: 1.6;
     margin: 0;
-    max-width: 750px;
+    max-width: none !important;
+    width: 100%;
 }
 
 /* Small image / logo area */
