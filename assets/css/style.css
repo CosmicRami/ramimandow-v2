@@ -128,4 +128,52 @@
     margin-bottom: 15px;
     font-size: 1.1rem;
     font-weight: 600;
+
+/* Publication summary statistics */
+
+.publication-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin: 20px 0 45px;
+}
+
+.publication-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 15px;
+    background: #101e34;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+}
+
+.stat-number {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--accent);
+}
+
+.stat-label {
+    margin-top: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    .publication-stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .publication-stat {
+        padding: 20px 15px;
+    }
+}    
 }
